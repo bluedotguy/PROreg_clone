@@ -26,3 +26,5 @@ install_github("idaejin/PROreg")
 ## References
 
   * **Najera-Zuloaga, J., Lee, D.-J., and Arostegui, I. (2018)**, "A beta-binomial mixed-effects model approach for analysing longitudinal discrete and bounded outcomes". Accepted for publication in _Biometrical Journal_.
+
+
