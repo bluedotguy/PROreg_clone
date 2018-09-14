@@ -1,8 +1,11 @@
+---
+output: html_document
+---
 # PROreg: Patient Reported Outcomes Regression Analysis
 
 **PROreg `R` package**
 
-This `R` package implements regression methods (with logistic link) for discrete bounded outcomes with particular interest in patients-reported outcomes including mixed-effects models.
+This `R` package implements regression methods for discrete, bounded outcomes with the particular interest in patient-reported outcomes including mixed-effects models.
 
 **Author(s):**
 
