@@ -35,7 +35,7 @@ The function performs statistical significance hypothesis about the estimated fi
   \item{nRand}{ number of random effects.}
   \item{nComp}{ number of random components.}
   \item{nRandComp}{ number of random effects in each random component of the model.}
-  \item{namesRand}{ names of the random components.}
+%  \item{namesRand}{ names of the random components.}
   \item{deviance}{ deviance of the model.}
   \item{df}{ degrees of freedom of the model.}
   \item{null.deviance}{ null-deviance, deviance of the null model. The null model will only include an intercept as the estimation of the probability parameter of the conditinal beta-binomial distribution.}
@@ -60,7 +60,7 @@ Breslow N. E. & Calyton D. G. (1993): Approximate Inference in Generalized Linea
 Lee Y. & Nelder J. A. (1996): Hierarchical generalized linear models, \emph{Journal of the Royal Statistical
 Society. Series B}, \bold{58}, 619-678
 
-Najera-Zuloaga J., Lee D.-J. & Arostegui I. (2017): Comparison of beta-binomial regression model approaches to analyze health related quality of life data, \emph{Statistical Methods in Medical Research}, DOI: 10.1177/0962280217690413 
+Najera-Zuloaga J., Lee D.-J. & Arostegui I. (2018): A beta-binomial mixed-effects model approach for analysing longitudinal discrete and bounded outcomes, \emph{Biometrical Journal}.
 }
 
 \keyword{rootSolve, numDeriv }

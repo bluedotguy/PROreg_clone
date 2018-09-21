@@ -33,7 +33,7 @@ Breslow N. E. & Calyton D. G. (1993): Approximate Inference in Generalized Linea
 Lee Y. & Nelder J. A. (1996): Hierarchical generalized linear models, \emph{Journal of the Royal Statistical
 Society. Series B}, \bold{58}, 619-678
 
-Najera-Zuloaga J., Lee D.-J. & Arostegui I. (2017): Comparison of beta-binomial regression model approaches to analyze health related quality of life data, \emph{Statistical Methods in Medical Research}, DOI: 10.1177/0962280217690413 
+Najera-Zuloaga J., Lee D.-J. & Arostegui I. (2018): A beta-binomial mixed-effects model approach for analysing longitudinal discrete and bounded outcomes, \emph{Biometrical Journal}.
 }
 
 \seealso{

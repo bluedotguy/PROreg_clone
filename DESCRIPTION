@@ -9,3 +9,4 @@ Imports: fmsb, car, RColorBrewer, matrixcalc, rootSolve, numDeriv,
         Matrix
 NeedsCompilation: no
 Packaged: 2018-09-12 23:59:59 UTC; jnajera
+RoxygenNote: 6.1.0

@@ -43,7 +43,7 @@ The Short Form-36 Health Survey is a commonly used technique to measure the Heal
 
 \cite{Arostegui et al. (2013)} proposed a recoding methodology of the SF-36 standardized scores to a binomial form in order to apply the beta-binomial distribution. The method was mainly based on the possible number of values each dimension can obtain, which comes from the number of items related with the construction of each dimension.
 
-The \code{SF36rec} function performes the cited recoding methodology to the specified SF-36 dimension. It has two inputs. The first one is the dimension that will be recoded, and the second one identifies which SF-36 dimension is. 
+The \code{SF36rec} function performes the cited recoding methodology to the specified SF-36 dimension. It has two inputs. The first one is the dimension that will be recoded, and the second one identifies which SF-36 dimension is.
 }
 
 \author{

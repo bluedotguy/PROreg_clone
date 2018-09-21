@@ -14,8 +14,8 @@ The estimation of the parameters can also be done by means of two approaches: (i
 }
 
 \usage{
-BBmm(fixed.formula,random.formula,Z=NULL,nRandComp=NULL,m,data,
-      method="BB-NR",maxiter=100)
+BBmm(fixed.formula,random.formula=NULL,Z=NULL,nRandComp=NULL,m,
+      data=list(),method="BB-NR",maxiter=50,show=FALSE)
 }
 
 \arguments{
@@ -27,6 +27,7 @@ BBmm(fixed.formula,random.formula,Z=NULL,nRandComp=NULL,m,data,
 \item{data}{ an optional data frame, list or environment (or object coercible by \code{as.data.frame} to a data frame) containing the variables in the model. If not found in data, the variables are taken from environment(formula).}
 \item{method}{ the methodology for performing the estimation of the parameters. Options "BB-NR" or "rootSolve". Default "BB-NR".}
 \item{maxiter}{ the maximum number of iterations in the parameters estimation algorithm. Default 100.}
+\item{show}{ the argument allows to show the partial results in each iteration.}
 }
 
 \details{
@@ -81,6 +82,7 @@ The method iterates between both estimation processes until convergence is reach
   \item{m}{ maximum score number in each beta-binomial observation.}
   \item{call}{ the matched call.}
   \item{formula}{ the formula supplied.}
+  \item{conv}{ the convergence of the algorithm.}
 }
 
 \author{
@@ -97,7 +99,7 @@ Breslow N. E. & Calyton D. G. (1993): Approximate Inference in Generalized Linea
 Lee Y. & Nelder J. A. (1996): Hierarchical generalized linear models, \emph{Journal of the Royal Statistical
 Society. Series B}, \bold{58}, 619-678
 
-Najera-Zuloaga J., Lee D.-J. & Arostegui I. (2017): Comparison of beta-binomial regression model approaches to analyze health related quality of life data, \emph{Statistical Methods in Medical Research}. DOI: 10.1177/0962280217690413
+Najera-Zuloaga J., Lee D.-J. & Arostegui I. (2018): A beta-binomial mixed-effects model approach for analysing longitudinal discrete and bounded outcomes, to appear in \emph{Biometrical Journal}.
 }
 
 \keyword{rootSolve, numDeriv }
