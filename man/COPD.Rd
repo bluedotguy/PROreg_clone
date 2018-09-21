@@ -19,7 +19,7 @@ data(COPD)
 
 \item{\code{id}}{Individual, total of 543}
 
-\item{cluster}{cluster 1,2,3,4}
+\item{cluster}{cluster A,B,C,D}
 
 \item{dd}{Days (integer)}
 
@@ -30,7 +30,7 @@ data(COPD)
 Returns the result of addition
 }
 \description{
-The COPD Study is an observational study that was designed at the Respiratory Unit at Galdakao Hospital in Spain. Patients' COPD had to be stable for at least six months before enrolment, and they were followed up to five years with clinical examination and interviews. The health-status was measured with the generic questionnaire SF-36 Health Survey. The \code{COPD} data frame contains three dimensions (Role Physical, General Health and Role Emotional) of 543 patients recoded as a binomial form according to Arostegui et al. (2013). See function \code{?SF36rec}.
+The COPD Study is an observational study that was designed at the Respiratory Unit at Galdakao Hospital in Spain. Patients' COPD had to be stable for at least six months before enrolment, and they were followed up to five years with clinical examination and interviews. The health-status was measured with the generic questionnaire SF-36 Health Survey. The \code{COPD} data frame contains three dimensions (Role Physical, General Health and Role Emotional) of 543 patients recoded as a binomial form according to Arostegui et al. (2013). See function \code{?SF36rec}. Patients are classified into 4 clusters or subtypes: A,B, C and D. Subtypes A, B, and C, had marked respiratory profiles with a continuum in severity of several variables and subtype D, had a more systemic profile with intermediate respiratory disease severity (see Esteban et al. 2016).
 }
 \examples{
 data(COPD)
