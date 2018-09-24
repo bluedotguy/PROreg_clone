@@ -1,4 +1,3 @@
-\docType{data}
 \name{COPD}
 \alias{COPD}
 \title{COPD: chronic obstructive pulmonary disease}
