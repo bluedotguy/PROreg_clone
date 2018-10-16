@@ -18,7 +18,7 @@ data(COPD)
 
 \item{\code{id}}{Individual, total of 543}
 
-\item{cluster}{cluster A,B,C,D}
+\item{cluster}{cluster "B","C","A","D"}
 
 \item{dd}{Days (integer)}
 
